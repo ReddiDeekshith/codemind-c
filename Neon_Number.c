@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int n,sq,r,s=0;
+    int n,a,r,s=0;
     scanf("%d",&n);
-    sq=n*n;
-    while(sq>0)
+    a=n*n;
+    while(a>0)
     {
-        r=sq%10;
+        r=a%10;
         s=s+r;
-        sq=sq/10;
+        a=a/10;
     }
     if(s==n)
     printf("Neon Number");
