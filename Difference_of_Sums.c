@@ -1,13 +1,14 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
-    int i,n,d,s=0,j=0;
+    int i,n,s=0,j=0,c;
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
-       s=s+i;
-       j=j+i*i;
+        s=s+i;
+        j=j+i*i;
     }
-    d=s*s-j;
-    printf("%d",d);
+    c=s*s-j;
+    printf("%d",c);
 }
