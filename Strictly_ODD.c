@@ -3,7 +3,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int a[n],i,c=0,s=0;
+    int a[n],i,s=0,c=0;
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
@@ -22,7 +22,7 @@ int main()
             s++;
         }
     }
-    if(s==c)
+    if(c==s)
     printf("True");
     else
     printf("False");
